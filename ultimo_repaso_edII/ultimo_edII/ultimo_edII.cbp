@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ultimo_edII" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ultimo_edII" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ultimo_edII" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Users/Usuario/Desktop/ultimo_repaso_edII/abb.o" />
+			<Add library="C:/Users/Usuario/Desktop/ultimo_repaso_edII/arbin.o" />
+			<Add library="C:/Users/Usuario/Desktop/ultimo_repaso_edII/nodoB.o" />
+		</Linker>
+		<Unit filename="../abb.h" />
+		<Unit filename="../arbin.h" />
+		<Unit filename="../excep_Ej6.h" />
+		<Unit filename="../excep_abb.h" />
+		<Unit filename="../excep_arbin.h" />
+		<Unit filename="../excepcion.h" />
+		<Unit filename="../nodoB.h" />
+		<Unit filename="../practica2.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

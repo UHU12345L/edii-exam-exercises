@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1776754383 source:c:\users\usuario\desktop\ultimo_repaso_edii\practica2.cpp
+	<iostream>
+	<cstdlib>
+	<queue>
+	"arbin.h"
+	"abb.h"
+	"Excep_Ej6.h"
+
+1776693557 c:\users\usuario\desktop\ultimo_repaso_edii\arbin.h
+	"nodoB.h"
+	"excep_arbin.h"
+
+1776693557 c:\users\usuario\desktop\ultimo_repaso_edii\nodob.h
+	<stdlib.h>
+
+1776693557 c:\users\usuario\desktop\ultimo_repaso_edii\excep_arbin.h
+	"excepcion.h"
+
+1776693557 c:\users\usuario\desktop\ultimo_repaso_edii\excepcion.h
+	<string>
+	<stdexcept>
+
+1776693557 c:\users\usuario\desktop\ultimo_repaso_edii\abb.h
+	"nodoB.h"
+	"excep_abb.h"
+	"arbin.h"
+
+1776693557 c:\users\usuario\desktop\ultimo_repaso_edii\excep_abb.h
+	"excepcion.h"
+
+1776693557 c:\users\usuario\desktop\ultimo_repaso_edii\excep_ej6.h
+	"excepcion.h"
+
